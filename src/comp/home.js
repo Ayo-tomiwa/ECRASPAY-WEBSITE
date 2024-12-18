@@ -103,16 +103,16 @@ const Home = () => {
                                 <input type='email' placeholder='E-mail' autoComplete='off'></input>
                                 <button>subscribe</button>
                                 <div className='icon_box'>
-                                <div classname='icon'>
+                                <div className='icon'>
                                     <BiLogoFacebook />
                                 </div>
-                                <div classname='icon'>
+                                <div className='icon'>
                                     <BiLogoTwitter />
                                 </div>
-                                <div classname='icon'>
+                                <div className='icon'>
                                     <BiLogoInstagram />
                                 </div>
-                                <div classname='icon'>
+                                <div className='icon'>
                                     <BiLogoYoutube />
                                 </div>
                                 </div>
