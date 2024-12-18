@@ -3,6 +3,7 @@ import './home.css'
 import { Link } from 'react-router-dom'
 import Homeproduct from './home_product'
 import { AiFillEye, AiFillHeart } from "react-icons/ai";
+import { BiLogoFacebook, BiLogoTwitter , BiLogoInstagram, BiLogoYoutube } from "react-icons/bi";
 
 const Home = () => {
     const [trendingProduct, setTrendingProduct] = useState(Homeproduct)
@@ -22,7 +23,7 @@ const Home = () => {
     }
   return (
     <>
-    <div className='home'>
+    <div className='home'> 
         <div className='top_banner'>
             <div className='contant'>
                 <h3>silver aluminium apple</h3>
@@ -76,7 +77,49 @@ const Home = () => {
                         </div>
                     </div>
                 </div>
-                <div className='right_box'></div>
+                <div className='right_box'>
+                    <div className='right_container'>
+                        <div className='testimonial'>
+                            <div className='head'>
+                                <h3>our testimonial</h3>
+                            </div>
+                            <div className='detail'>
+                                <div className='img_box'>
+                                    <img src='image/T2.jpeg' alt='testimonial'></img>
+                                </div>
+                                <div className='info'>
+                                    <h3>stephan robot</h3>
+                                    <h4>web designer</h4>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div className='newsletter'>
+                            <div className='head'>
+                                <h3>newsletter</h3>
+                            </div>
+                            <div className='form'>
+                                <p>join our mailing list</p>
+                                <input type='email' placeholder='E-mail' autoComplete='off'></input>
+                                <button>subscribe</button>
+                                <div className='icon_box'>
+                                <div classname='icon'>
+                                    <BiLogoFacebook />
+                                </div>
+                                <div classname='icon'>
+                                    <BiLogoTwitter />
+                                </div>
+                                <div classname='icon'>
+                                    <BiLogoInstagram />
+                                </div>
+                                <div classname='icon'>
+                                    <BiLogoYoutube />
+                                </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
