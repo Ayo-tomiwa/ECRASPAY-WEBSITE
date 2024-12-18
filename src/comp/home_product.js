@@ -60,7 +60,7 @@ const Homeproduct=
         id: 8,
         Name: 'product8',
         price: '87',
-        image: 'image/p8.jpeg',
+        image: 'image/p8.avif',
         cat: '',
         type: 'top',
     },
