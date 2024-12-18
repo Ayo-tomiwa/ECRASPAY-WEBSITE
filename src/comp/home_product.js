@@ -4,7 +4,7 @@ const Homeproduct=
         id: 1,
         Name: 'product1',
         price: '26',
-        // image: ''
+        image: 'image/p1.jpg',
         cat: '',
         type: 'new',
     },
@@ -12,7 +12,7 @@ const Homeproduct=
         id: 2,
         Name: 'product2',
         price: '96',
-        // image: ''
+        image: 'image/p2.jpeg',
         cat: '',
         type: 'new',
     },
@@ -20,7 +20,7 @@ const Homeproduct=
         id: 3,
         Name: 'product3',
         price: '236',
-        // image: ''
+        image: 'image/p3.jpg',
         cat: '',
         type: 'new',
     },
@@ -28,7 +28,7 @@ const Homeproduct=
         id: 4,
         Name: 'product4',
         price: '98',
-        // image: ''
+        image: 'image/p4.webp',
         cat: '',
         type: 'featured',
     },
@@ -36,7 +36,7 @@ const Homeproduct=
         id: 5,
         Name: 'product5',
         price: '59',
-        // image: ''
+        image: 'image/p5.jpg',
         cat: '',
         type: 'featured',
     },
@@ -44,7 +44,7 @@ const Homeproduct=
         id: 6,
         Name: 'product6',
         price: '67',
-        // image: ''
+        image: 'image/p6.jpg',
         cat: '',
         type: 'top',
     },
@@ -52,7 +52,7 @@ const Homeproduct=
         id: 7,
         Name: 'product7',
         price: '76',
-        // image: ''
+        image: 'image/p7.jpeg',
         cat: '',
         type: 'top',
     },
@@ -60,7 +60,7 @@ const Homeproduct=
         id: 8,
         Name: 'product8',
         price: '87',
-        // image: ''
+        image: 'image/p8.jpeg',
         cat: '',
         type: 'top',
     },
