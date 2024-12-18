@@ -3,7 +3,7 @@ const Homeproduct=
     {
         id: 1,
         Name: 'product1',
-        price: '26',
+        price: '96',
         image: 'image/p1.jpg',
         cat: '',
         type: 'new',
@@ -11,7 +11,7 @@ const Homeproduct=
     {
         id: 2,
         Name: 'product2',
-        price: '96',
+        price: '26',
         image: 'image/p2.jpeg',
         cat: '',
         type: 'new',

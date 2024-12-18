@@ -11,7 +11,7 @@
 
 .home .top_banner{
     max-width: 100%;
-    height: 500px;
+    height: 570px;
     background: url('http://localhost:3000/image/slide---1.avif');
     background-size: cover;
     background-repeat: no-repeat;
@@ -27,7 +27,7 @@
 
 .home .top_banner .contant h3{
     text-transform: capitalize;
-    color: #e19410;
+    color: #FF8C00;
     font-weight: 300;
     letter-spacing: 1px;
 }
@@ -58,7 +58,7 @@
 
 .home .top_banner .contant .link:hover{
     color: #fdef9f;
-    background: #e19410;
+    background: #FF8C00;
 }
 
 .home .trending{
@@ -74,6 +74,7 @@
 .home .trending .container .left_box{
     padding: 10px 20px;
     width: 75%;
+    margin-top: 30px;
 }
 
 .home .trending .container .left_box .header{
@@ -89,6 +90,7 @@
     font-size: 16px;
     color: #232323;
     margin-top: 10px;
+    cursor: pointer;
 }
 
 .home .trending .container .left_box .header .cate{
@@ -107,7 +109,7 @@
 }
 
 .home .trending .container .left_box .header .cate h3:hover{
-    color: #e19410;
+    color: #FF8C00;
 }
 
 .home .trending .container .left_box .products{
@@ -122,17 +124,88 @@
 
 .home .trending .container .left_box .products .container .box{
     width: 220px;
-    height: 295px;
+    height: 300px;
     padding: 10px 10px;
     border: 4px solid #f6f7f8;
-    margin-top: 20px;
+    margin-top: 30px;
     margin-left: 20px;
     overflow: hidden;
     border-radius: 5px;
+}
+
+.home .trending .container .left_box .products .container .box .img_box{
+    display: flex;
 }
 
 .home .trending .container .left_box .products .container .box .img_box img{
     width: 190px;
     height: 190px;
     object-fit: cover;
+}
+
+.home .trending .container .left_box .products .container .box .img_box .icon{
+    display: flex;
+    flex-direction: column;
+    margin-left: 10%;
+    margin-top: 10px;
+    transition: 0.5s;
+}
+
+.home .trending .container .left_box .products .container .box:hover .img_box .icon{
+    margin-left: -20%;
+}
+
+.home .trending .container .left_box .products .container .box .img_box .icon .icon_box{
+    padding: 10px 10px;
+    margin-top: 10px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    z-index: 1;
+    background: #fff;
+    color: #FF8C00;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.home .trending .container .left_box .products .container .box .img_box .icon .icon_box:hover{
+    background: #FF8C00;
+    color: #fff;
+}
+
+.home .trending .container .left_box .products .container .box .info{
+    padding: 10px 10px;
+    margin-left: 10px;
+}
+
+.home .trending .container .left_box .products .container .box .info h3{
+    text-transform: uppercase;
+    font-size: 14px;
+    color: #232323;
+    font-weight: 300;
+    letter-spacing: 1px;
+}
+
+.home .trending .container .left_box .products .container .box .info p{
+    color: #fed700;
+    margin-top: 5px;
+    font-size: 14px;
+    letter-spacing: 1px;
+}
+
+.home .trending .container .left_box .products .container .box .info .btn {
+    margin: 10px 20px;
+    align-items: center;
+    padding: 5px 20px;
+    border: none;
+    outline: none;
+    background: none;
+    background: #fed700;
+    color: #232323;
+    text-transform: capitalize;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.home .trending .container .left_box .products .container .box .info .btn:hover {
+    background: #FF8C00;
+    color: #f6f7f8;
 }
